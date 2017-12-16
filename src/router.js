@@ -18,6 +18,13 @@ const router = new VueRouter({
   }),
   routes: [
     {
+      path: '/',
+      redirect: '/feed',
+      meta: {
+        requiresAuth: true
+      }
+    },
+    {
       path: '/feed',
       component: Feed,
       meta: {

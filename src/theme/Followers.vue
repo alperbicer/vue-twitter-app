@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      Mesaj Göndermek İstediğiniz Takipçinizi Seçin
+      <span>Mesaj Göndermek İstediğiniz Takipçinizi Seçin</span>
       <br><br>
       <app-direct-message v-if="showModal" @close="showModal = false" :follower="follower"></app-direct-message>
       <div class="columns" v-if="followers" v-for="follower in followers" v-bind:key="follower.id">

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar has-shadow">
     <div class="container">
-        <router-link class="icon" to="/feed" exact>
+        <router-link class="icon" to="/feed">
           <div class="media-left">
             <figure class="image is-64x64">
               <img src="https://vuejs.org/images/logo.png" alt="Vue SPA" />
